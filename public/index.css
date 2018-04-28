@@ -27,6 +27,7 @@ body {
     height: 20px;
     color: gray;
     text-align: center;
+    margin-bottom: 40px;
     clear: both;
 }
 
@@ -65,7 +66,6 @@ body {
 
 ul {
     padding: 0;
-    margin-bottom: 40px;
 }
 
 li {

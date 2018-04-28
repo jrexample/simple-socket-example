@@ -1,0 +1,90 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.pinimg.com/564x/0f/21/18/0f21180894b412c5bb4b9024c538e8ae.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#chat-section {
+    display: none;
+}
+
+#chat-messages {
+    height: auto;
+    overflow: auto;
+}
+
+#typing-section {
+    height: 20px;
+    color: gray;
+    text-align: center;
+    clear: both;
+}
+
+.btn-submit {
+    display: none;
+}
+
+#register-form {
+    width: 100%;
+    margin: 20px;
+}
+
+#u {
+    background: transparent;
+    left: 50%;
+    top: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    width: 300px;
+    top: 45%;
+    padding: 10px;
+    margin: 0px 0px 0px -150px;
+    text-align: center;
+    font-size: 25px;
+    outline: none;
+}
+
+#m {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    position: absolute;
+    bottom: 0;
+}
+
+ul {
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+li {
+    list-style: none;
+    width: 200px;
+    border-radius: 10px;
+    background: rgba(10, 25, 25, .1);
+    padding: 20px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    margin: 10px;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Socket.io Example</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <section id="register-section">
+        <form id="register-form">
+            <input type="text" id="u" autocomplete="off" placeholder="Enter your name" />
+            <button class="btn-submit">Join</button>
+        </form>
+    </section>
+    <section id="chat-section">
+        <ul id="chat-messages">
+            <section id="typing-section">
+                <span id="typing"></span>
+            </section>
+        </ul>
+        <form id="chat-form">
+            <input type="text" id="m" autocomplete="off" placeholder="Enter message" />
+            <button class="btn-submit">Send</button>
+        </form>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.0/socket.io.dev.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

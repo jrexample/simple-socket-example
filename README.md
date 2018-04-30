@@ -1,6 +1,6 @@
 # Simple Socket Example
 
-Simple realtime chat application with Socket.io
+Simple realtime chat application with Socket.io<br />
 <a href="https://simple-socket-example.herokuapp.com">Demo</a>
 
 ## Built With

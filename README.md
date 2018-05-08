@@ -2,6 +2,9 @@
 
 Simple realtime chat application with Socket.io
 
+## Demo
+<a href="https://simple-socket-example.herokuapp.com">Demo</a>
+
 ## Built With
 - Node.js (Express.js)
 - Socket.io
@@ -12,5 +15,3 @@ Simple realtime chat application with Socket.io
 
 ## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT)
-
-<a href="https://simple-socket-example.herokuapp.com">Demo</a>
